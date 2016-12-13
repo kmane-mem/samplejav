@@ -1,0 +1,16 @@
+#IMAGES
+
+resources:
+  - name: prvt-image1
+    type: image
+    integration: ship-docker
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploy.1"
+  # DOCKER OPTIONS:
+
+  - name: prvt-dopts
+    type: dockerOptions
+    version:
+      memory: 100
