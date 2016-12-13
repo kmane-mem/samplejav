@@ -1,0 +1,8 @@
+jobs:
+  - name: prvt-manifest1
+    type: manifest
+    steps:
+      - IN: prvt-image1
+        #versionNumber: 100
+      - IN: prvt-dopts
+      - IN: prvt-tg1
