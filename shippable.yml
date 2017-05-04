@@ -10,6 +10,7 @@ jdk:
 
 build:
   ci:
-    - java -version  
+    - java -version 
+    - echo $PULL_REQUEST_REPO_FULL_NAME 
 #    - sleep 8m
    
