@@ -1,2 +1,2 @@
 # javaSample
-Sample project for java repository
+Sample project for java repository-prenv
